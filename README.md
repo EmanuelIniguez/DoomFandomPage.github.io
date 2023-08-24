@@ -1,6 +1,6 @@
 # Doom Fandom Page 
 
-Pagina tributo al clasico juego FPS Doom hechon HTML y Css.
+Pagina tributo al clasico juego FPS Doom hecho HTML y Css.
 Con estilo retro inspirado en Windows 95. 
 
 El repositorio del creador del css : https://github.com/AlexBSoft/win95.css
