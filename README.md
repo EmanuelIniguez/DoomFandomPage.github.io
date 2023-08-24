@@ -17,6 +17,6 @@ Tecnologias usadas :
  
 - CSS ("Win95.CSS")
 
-- JS-DOS V7
+- JS-DOS V7 (Emulador del juego)
 
 
