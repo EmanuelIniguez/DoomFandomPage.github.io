@@ -1,6 +1,7 @@
 # Doom Fandom Page 
 
 Pagina tributo al clasico juego FPS Doom hecho HTML y Css.
+
 Con estilo retro inspirado en Windows 95. 
 Cuenta con el reproductor Winamp , perlitas del juego y ademas se puede jugar al juego dentro de la web.
 
@@ -14,7 +15,7 @@ Tecnologias usadas :
 
 - HTML
  
--CSS ("Win95.CSS")
+- CSS ("Win95.CSS")
 
 - JS-DOS V7
 
