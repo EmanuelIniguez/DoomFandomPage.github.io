@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Doom Fandom Page/Personajes</title>
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0" />
+    <meta author="Alex B" />
+    <meta property="og:image" content="assets/preview.png" />
+
+    <link rel="shortcut icon"
+        href="https://e7.pngegg.com/pngimages/436/468/png-clipart-the-ultimate-doom-doomguy-gif-video-games-doomguy-face-game-face-thumbnail.png"
+        type="image/png">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="assets/win95.css">
+
+    <link rel="stylesheet" type="text/css" href="/assets/clippy/clippy.css" media="all">
+
+</head>
+
+<body class="bg-cloud">
+    <nav class="navbar navbar-expand-lg navbar-light navbar-95 ">
+        <a class="navbar-brand" href="#">
+            <img class="rotate-image" src="./images/580b57fcd9996e24bc43c34d.png" height="35px" width="90px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="./index.html">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./cronologia.html">Cronologia</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./links.html">Links</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Juego
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="./personajes.html">Personajes y enemigos</a>
+                        <a class="dropdown-item" href="./facts.html">Facts</a>
+                        <a class="dropdown-item" href="./Playgame.html">Play Game</a>
+
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+        <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ab3bf407-a713-4fb1-a91d-091746b6efe8/d929pp0-359723c5-d1a8-42dd-b17d-030aa05abc7f.png/v1/fill/w_850,h_315,q_80,strp/banner_doom1_by_sakuritha_tsukiyomi_d929pp0-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MzE1IiwicGF0aCI6IlwvZlwvYWIzYmY0MDctYTcxMy00ZmIxLWE5MWQtMDkxNzQ2YjZlZmU4XC9kOTI5cHAwLTM1OTcyM2M1LWQxYTgtNDJkZC1iMTdkLTAzMGFhMDVhYmM3Zi5wbmciLCJ3aWR0aCI6Ijw9ODUwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.NkKFz4dCi90I9KxZqvwy2pHMRUuN8kVzNfU06K1rbzM"
+            class="imgB" onclick="playCardClickSound()">
+    </div>
+
+    <audio id="cardClickSound">
+        <source src="./assets/Doom OST - E1M6 - On the Hunt.mp3" type="audio/mpeg">
+        Tu navegador no soporta la reproducción de audio.
+    </audio>
+
+    <script>
+        var isSoundPlaying = false; // Variable para rastrear el estado de reproducción del sonido
+
+        function playCardClickSound() {
+            if (!isSoundPlaying) { // Reproducir solo si el sonido no está en reproducción
+                var cardClickSound = document.getElementById('cardClickSound');
+                cardClickSound.currentTime = 0; // Reiniciar el audio al principio
+                cardClickSound.play();
+                isSoundPlaying = true;
+
+                // Escuchar el evento 'ended' para saber cuándo ha terminado el sonido
+                cardClickSound.addEventListener('ended', function () {
+                    isSoundPlaying = false; // Restablecer el estado cuando el sonido ha terminado
+                });
+            }
+        }
+    </script>
+
+    <div class="container ">
+
+        <div class="card mb-4">
+            <div class="card-header">
+                <h4 class="my-0 font-weight-normal"><img class="rotate-image"
+                        src="https://e7.pngegg.com/pngimages/436/468/png-clipart-the-ultimate-doom-doomguy-gif-video-games-doomguy-face-game-face-thumbnail.png"
+                        height="32px"> Protagonista</h4>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="https://i.pinimg.com/originals/e1/23/e8/e123e83215ba5b951449a16e98f26e61.jpg"
+                            style="height: 200px">
+                    </div>
+                    <div class="col">
+                        <h5>Doom Slayer</h5>
+                        El protagonista de la saga Doom es el personaje
+                        principal de y sus secuelas, que no tiene un nombre conocido, (en
+                        inglés se le denomina "Doomguy", algo así como "el muchacho del Doom"). En Doom 3 es el
+                        jugador quien decide su nombre;
+                        aunque siempre es llamado simplemente "marine" por el resto de los personajes, no tiene por
+                        que ser necesariamente el
+                        mismo personaje en todos los juegos, aunque siempre se parece.
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container ">
+        <div class="card mb-4">
+            <div class="card-header">
+                <h4 class="my-0 font-weight-normal"><img class="rotate-image"
+                        src="https://www.writeups.org/wp-content/uploads/Cacodemon-Doom-video-game-updscale-Hidfan.jpg"
+                        height="32px"> Soldado</h4>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="data:image/jpeg;base64,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"
+                            style="height: 160px">
+                    </div>
+                    <div class="col">
+                        <h5>Soldado Zombie</h5>
+                        <p>En la serie de videojuegos Doom, el soldado zombie, conocido como "Former Human", es un
+                            enemigo básico que se ha
+                            convertido en una de las señas de identidad del juego. Estos soldados reanimados son una
+                            visión grotesca de lo que una
+                            vez fueron humanos, ahora transformados en criaturas sedientas de sangre y violencia. Con
+                            apariencia desfigurada y
+                            armados con rifles, los soldados zombies acechan los pasillos y corredores del juego,
+                            disparando a los jugadores desde
+                            la distancia y añadiendo un elemento de peligro constante en su búsqueda por sobrevivir al
+                            infierno desatado.
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container ">
+        <div class="card mb-4">
+            <div class="card-header">
+                <h4 class="my-0 font-weight-normal"><img class="rotate-image"
+                        src="https://www.writeups.org/wp-content/uploads/Cacodemon-Doom-video-game-updscale-Hidfan.jpg"
+                        height="32px"> Soldado</h4>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="https://www.writeups.org/wp-content/uploads/Zombie-Sergeant-Doom-video-game.jpg"
+                            style="height: 220px">
+                    </div>
+                    <div class="col">
+                        <h5>Sargento Zombie</h5>
+                        <p>También conocido como "Former Sergeant", es una variante más peligrosa y resistente del
+                            soldado zombie común. Estos
+                            enemigos presentan una apariencia similar a la de los soldados zombies, pero se distinguen
+                            por su armadura y rango
+                            militar anterior, lo que los hace más formidables en combate. Armados con escopetas de
+                            combate, los sargentos zombies
+                            son capaces de infligir daños significativos a corta distancia, representando una amenaza
+                            mayor y requiriendo
+                            estrategias adicionales para ser derrotados. Su presencia agrega un nivel de desafío
+                            adicional en el juego, ya que los
+                            jugadores deben estar atentos a su armamento y tácticas en medio del caos del combate.
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container ">
+        <div class="card mb-4">
+            <div class="card-header">
+                <h4 class="my-0 font-weight-normal"><img class="rotate-image"
+                        src="https://www.writeups.org/wp-content/uploads/Cacodemon-Doom-video-game-updscale-Hidfan.jpg"
+                        height="32px"> Demonio</h4>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="https://www.writeups.org/wp-content/uploads/Cacodemon-Doom-video-game-updscale-Hidfan.jpg"
+                            style="height: 140px">
+                    </div>
+                    <div class="col">
+                        <h5>Cacodemon</h5>
+                        <p> Se caracteriza por su aspecto grotesco y
+                            aterrador, con una gran boca repleta de dientes afilados y un único ojo en el
+                            centro. Flotando en el aire, el cacodemonio ataca a los jugadores escupiendo proyectiles de
+                            energía letal,
+                            convirtiéndolo en un enemigo formidable en el mundo del juego. Su diseño icónico y su
+                            participación en la serie lo
+                            convierten en un ícono reconocible entre los aficionados a los videojuegos de acción y
+                            terror.
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container ">
+        <div class="card mb-4">
+            <div class="card-header">
+                <h4 class="my-0 font-weight-normal"><img class="rotate-image"
+                        src="https://www.writeups.org/wp-content/uploads/Cacodemon-Doom-video-game-updscale-Hidfan.jpg"
+                        height="32px"> Demonio</h4>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="https://www.writeups.org/wp-content/uploads/Imp-Doom-video-game-hidfan-upscale.jpg"
+                            style="height: 140px">
+                    </div>
+                    <div class="col">
+                        <h5>Imp</h5>
+                        <p>El Imp es una criatura demoníaca , reconocible por su
+                            figura humanoida retorcida
+                            y su piel rojiza. Con la capacidad de lanzar bolas de fuego y saltar a largas distancias
+                            para emboscar a los jugadores,
+                            el Imp representa una amenaza constante en los enfrentamientos, añadiendo desafío y
+                            frenetismo a la experiencia de
+                            juego. Su papel icónico dentro de la franquicia lo ha convertido en un enemigo emblemático
+                            que los jugadores deben
+                            enfrentar en su lucha contra las fuerzas infernales.
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container ">
+        <div class="card mb-4">
+            <div class="card-header">
+                <h4 class="my-0 font-weight-normal"><img class="rotate-image"
+                        src="https://www.writeups.org/wp-content/uploads/Cacodemon-Doom-video-game-updscale-Hidfan.jpg"
+                        height="32px"> Demonio</h4>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="data:image/jpeg;base64,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"
+                            style="height: 256px">
+                    </div>
+                    <div class="col">
+                        <h5>Baron del Infierno</h5>
+                        <p>Es una formidable criatura demoníaca que aparece en la serie de
+                            videojuegos Doom. Caracterizado
+                            por su imponente estatura, piel roja y cuernos prominentes, el Baron del Infierno es un
+                            enemigo temible y poderoso.
+                            Utiliza su fuerza bruta para atacar a los jugadores, golpeándolos con sus garras afiladas y
+                            arrojándoles proyectiles de
+                            energía verdosa. Su presencia en el juego suele indicar desafíos intensos y batallas épicas,
+                            convirtiéndolo en un
+                            adversario icónico que pone a prueba las habilidades de los jugadores en su lucha contra las
+                            hordas demoníacas.
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container ">
+        <div class="card mb-4">
+            <div class="card-header">
+                <h4 class="my-0 font-weight-normal"><img class="rotate-image"
+                        src="https://www.writeups.org/wp-content/uploads/Cacodemon-Doom-video-game-updscale-Hidfan.jpg"
+                        height="32px"> Demonio</h4>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="data:image/jpeg;base64,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"
+                            style="height: 256px">
+                    </div>
+                    <div class="col">
+                        <h5>Revenant</h5>
+                        <p>Reconocible por su aspecto esquelético y amenazante. Equipado con lanzacohetes montados en
+                            sus hombros y cohetes
+                            propulsores en su espalda, el Revenant es capaz de disparar proyectiles explosivos desde la
+                            distancia y maniobrar
+                            ágilmente en el campo de batalla. Su presencia añade un elemento de peligro a los
+                            encuentros, ya que puede emboscar a
+                            los jugadores desde el aire o lanzar ataques devastadores, creando momentos intensos y
+                            emocionantes en la acción del
+                            juego.
+                            .
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container ">
+        <div class="card mb-4">
+            <div class="card-header">
+                <h4 class="my-0 font-weight-normal"><img class="rotate-image"
+                        src="https://www.writeups.org/wp-content/uploads/Cacodemon-Doom-video-game-updscale-Hidfan.jpg"
+                        height="32px"> Demonio</h4>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="data:image/jpeg;base64,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"
+                            style="height: 165px">
+                    </div>
+                    <div class="col">
+                        <h5>Pinky</h5>
+                        <p>El Pinky, también conocido como Bull Demon.
+                            Con su cuerpo musculoso y su piel rosada, el Pinky se caracteriza por su ferocidad en el
+                            combate cuerpo a cuerpo.
+                            Usualmente embiste a los jugadores con velocidad y fuerza, tratando de atraparlos con su
+                            mordida letal. Su naturaleza
+                            agresiva y su capacidad para flanquear a los jugadores lo convierten en un enemigo
+                            desafiante y peligroso en los
+                            enfrentamientos cercanos, añadiendo tensión y adrenalina a la experiencia de juego.
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container ">
+        <div class="card mb-4">
+            <div class="card-header">
+                <h4 class="my-0 font-weight-normal"><img class="rotate-image"
+                        src="https://www.writeups.org/wp-content/uploads/Cacodemon-Doom-video-game-updscale-Hidfan.jpg"
+                        height="32px"> Demonio</h4>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="https://www.writeups.org/wp-content/uploads/Cyberdemon-Doom-video-game-sprite-featured.jpg"
+                            style="height: 160px">
+                    </div>
+                    <div class="col">
+                        <h5>Cyberdemon</h5>
+                        <p>Reconocido por su figura colosal y apariencia biomecánica. Caracterizado por su ojo único y
+                            rojo, el Cyberdemon es un
+                            enemigo formidable con una poderosa arma montada en su brazo, capaz de causar daños
+                            devastadores. Su presencia en los
+                            juegos suele representar momentos de gran desafío y emoción, ya que requiere estrategia y
+                            habilidad para derrotarlo,
+                            añadiendo un componente de enfrentamiento épico y adrenalina a las batallas contra este
+                            imponente adversario.
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container ">
+        <div class="card mb-4">
+            <div class="card-header">
+                <h4 class="my-0 font-weight-normal"><img class="rotate-image"
+                        src="https://www.writeups.org/wp-content/uploads/Cacodemon-Doom-video-game-updscale-Hidfan.jpg"
+                        height="32px"> Demonio</h4>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="data:image/jpeg;base64,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"
+                            style="height: 256px">
+                    </div>
+                    <div class="col">
+                        <h5>Baron del Infierno</h5>
+                        <p>Es una formidable criatura demoníaca que aparece en la serie de
+                            videojuegos Doom. Caracterizado
+                            por su imponente estatura, piel roja y cuernos prominentes, el Baron del Infierno es un
+                            enemigo temible y poderoso.
+                            Utiliza su fuerza bruta para atacar a los jugadores, golpeándolos con sus garras afiladas y
+                            arrojándoles proyectiles de
+                            energía verdosa. Su presencia en el juego suele indicar desafíos intensos y batallas épicas,
+                            convirtiéndolo en un
+                            adversario icónico que pone a prueba las habilidades de los jugadores en su lucha contra las
+                            hordas demoníacas.
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="text-center mb-4">
+        <img src="assets/logo.png">
+    </div>
+
+
+
+    <footer class="taskbar">
+        <div class="row" style="margin-right: 0px;">
+            <div class="col-8">
+                <a href="https://github.com/AlexBSoft/win95.css" class="btn start-button"><img
+                        src="assets/icons/windows-0.png" class="icon-16">
+                    <strong>Start</strong></a>
+
+                <a href="" class="btn start-button"><img
+                        src="https://e7.pngegg.com/pngimages/436/468/png-clipart-the-ultimate-doom-doomguy-gif-video-games-doomguy-face-game-face-thumbnail.png"
+                        class="icon-16"> Doom Fandom Page</a>
+            </div>
+            <div class="col-4 time">By Alex B</div>
+        </div>
+
+
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <script src="assets/clippy/clippy.min.js"></script>
+
+
+    <script src="https://unpkg.com/webamp@1.4.0/built/webamp.bundle.min.js"></script>
+    <script>
+        const Webamp = window.Webamp;
+        new Webamp({
+            initialTracks: [{
+                metaData: {
+                    artist: "Kevin MacLeod",
+                    title: "Study and Relax"
+                },
+                url: "assets/Study-and-Relax.mp3",
+                duration: 223
+            }],
+        }).renderWhenReady(document.getElementById('app'));
+
+        clippy.load('Clippy', function (agent) {
+            // Do anything with the loaded agent
+            agent.show();
+
+            agent.speak('Welcome to Alex`s website!');
+        });
+    </script>
+
+</body>
+
+</html>
