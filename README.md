@@ -2,9 +2,6 @@
 
 Pagina tributo al clasico juego FPS Doom hecho HTML y Css.
 
-Con estilo retro inspirado en Windows 95. 
-Cuenta con el reproductor Winamp , perlitas del juego y ademas se puede jugar al juego dentro de la web.
-
 El repositorio del creador del css : https://github.com/AlexBSoft/win95.css
 
 El live de la app : https://emanueliniguez.github.io/DoomFandomPage.github.io/
